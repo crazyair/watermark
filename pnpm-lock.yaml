@@ -12,7 +12,7 @@ importers:
       '@types/react': ^17
       '@types/react-dom': ^17
       '@umijs/plugin-antd': 0.15.0
-      '@umijs/utils': 3.5.21
+      '@umijs/utils': 3.5.23
       '@walrus/cli': 1.3.4
       '@walrus/plugin-release': 1.14.3
       '@walrus/plugin-test': 1.1.0
@@ -33,7 +33,7 @@ importers:
       '@types/react': 17.0.38
       '@types/react-dom': 17.0.11
       '@umijs/plugin-antd': 0.15.0_react-dom@17.0.2+react@17.0.2
-      '@umijs/utils': 3.5.21
+      '@umijs/utils': 3.5.23
       '@walrus/cli': 1.3.4
       '@walrus/plugin-release': 1.14.3_@walrus+cli@1.3.4
       '@walrus/plugin-test': 1.1.0
@@ -4807,8 +4807,8 @@ packages:
       prettier: 2.2.1
     dev: true
 
-  /@umijs/deps/3.5.21:
-    resolution: {integrity: sha512-P/4KaOklePvkWV1qk3euNBNEhbkEkh+gQYhWxqGxPswAK60jCxHdCu6QHaCQB3y3H9tOh44teuP8Cls4/4tF2w==}
+  /@umijs/deps/3.5.23:
+    resolution: {integrity: sha512-Z4Tq0GG6PQaguPWIVVtfi+ehruD4JJjTibPXIASxuMT9Xey076ZMY9rjCd5ZBlecFDde2lC53MOkyOcGniCAaQ==}
     dependencies:
       '@bloomberg/record-tuple-polyfill': 0.0.3
       chokidar: 3.5.1
@@ -4816,6 +4816,7 @@ packages:
       esbuild: 0.12.15
       jest-worker: 24.9.0
       prettier: 2.2.1
+      regenerate-unicode-properties: 9.0.0
     dev: true
 
   /@umijs/plugin-analytics/0.2.2_umi@3.5.20:
@@ -4888,7 +4889,7 @@ packages:
       '@umijs/plugin-analytics': 0.2.2_umi@3.5.20
       '@umijs/runtime': 3.5.20_react@17.0.2
       '@umijs/types': 3.5.20_react-dom@17.0.2+react@17.0.2
-      '@umijs/utils': 3.5.21
+      '@umijs/utils': 3.5.23
       copy-text-to-clipboard: 2.2.0
       deepmerge: 4.2.2
       dumi-assets-types: 1.0.0
@@ -5096,10 +5097,10 @@ packages:
       '@umijs/deps': 3.5.20
     dev: true
 
-  /@umijs/utils/3.5.21:
-    resolution: {integrity: sha512-YBeugACAJHe/43uuKN2C+HWIfztqWhTGwFxRGE1XxCEIGCcJPFt8u8SMvw0wtE/kHT9JIz/tTpErJyo1QYJp2A==}
+  /@umijs/utils/3.5.23:
+    resolution: {integrity: sha512-3uGD7DeuQrhfWZBnm3ry7PvP7jZwmdps5na+7TsI1/XpjyIWLWxbuy5vYQszi/1spKA3eIB0UNW9PrroAVxMIg==}
     dependencies:
-      '@umijs/deps': 3.5.21
+      '@umijs/deps': 3.5.23
     dev: true
 
   /@umijs/utils/4.0.0-beta.14:
@@ -6417,6 +6418,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: true
@@ -9338,6 +9340,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12983,6 +12986,7 @@ packages:
 
   /nan/2.15.0:
     resolution: {integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==}
+    requiresBuild: true
     dev: true
     optional: true
 
